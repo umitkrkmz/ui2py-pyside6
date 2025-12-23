@@ -18,9 +18,19 @@ A simple yet powerful GUI tool to convert one or **multiple** Qt Designer `.ui` 
 - **Real-time Status Updates:** Clear feedback during the conversion process.
 - **Cross-Platform:** Works on Windows, macOS, and Linux.
 
-## ⚡ Quick Setup
+## 📥 Installation
 
-This project depends only on `PySide6`.
+You can run the application directly using the executable or run it from the source code.
+
+### Option 1: Standalone Executable (Recommended)
+No Python installation required! Perfect for quick usage.
+
+1. Go to the **[Releases](https://github.com/umitkrkmz/ui2py-pyside6/releases)** page.
+2. Download the latest `ui2py.exe`.
+3. Double-click to run. That's it!
+
+### Option 2: Running from Source
+If you are a developer and want to modify the code:
 
 1. **Create and activate a virtual environment:**
    ```bash
@@ -34,7 +44,7 @@ This project depends only on `PySide6`.
 
 2. **Install the dependency:**
    ```bash
-   pip install PySide6
+   pip install -r requirements.txt
    ```
 
 3. **Run the app:**
